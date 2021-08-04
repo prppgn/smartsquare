@@ -11,5 +11,5 @@ class TestCore(unittest.TestCase):     # I nomi delle classi si scrivono in Came
     def test_float(self):
         self.assertAlmostEqual(square(2.),4.)
 
-if name__ == '__main':
+if __name__ == '__main__':
     unittest.main()
